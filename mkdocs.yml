@@ -77,7 +77,7 @@ extra:
     - icon: material/web
       link: https://imranr.dev/
       name: Website
-  
+
   translations:
     made_by: Made by
     open_an_issue: Open an Issue
@@ -143,6 +143,24 @@ plugins:
               missing_translation: '本页尚无简体中文（中国大陆）翻译，您正在浏览的是英文原文。'
               help_translate: '协助翻译'
 
+        - locale: ru
+          name: 🇷🇺 Русский
+          site_description: "Справочная страница для Obtainium"
+          nav_translations:
+            Home: Главная
+            UI Overview: Обзор интерфейса
+            How Apps are Tracked: Как отслеживаются приложения
+            App Sources: Источники приложений
+          extra:
+            translations:
+              made_by: Сделано
+              open_an_issue: Открыть отчёт о проблеме
+              crowdsourced_app_configurations: Конфигурации приложений
+              obtainium_website: Сайт Obtainium
+              made_with: Сделано с помощью
+              missing_translation: Эта страница ещё не переведена. Вы просматриваете версию на английском языке.
+              help_translate: Помочь перевести эту страницу
+
         - locale: "null"
           name: ➕ Add
           build: false
@@ -150,5 +168,3 @@ plugins:
 
 extra_css:
   - stylesheets/custom.css
-
-
